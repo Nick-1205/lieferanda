@@ -6,9 +6,9 @@ const nextConfig = {
   //  output: "export",
   //  basePath: "/lieferanda",
   //  assetPrefix: "/lieferanda",
-  //  images: {
-  //    unoptimized: true,
-  //  },
+  images: {
+    unoptimized: true,
+  },
 };
 
 export default nextConfig;
