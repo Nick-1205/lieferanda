@@ -1,40 +1,70 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+# Lieferanda – Meine Bestell-Webanwendung
 
-## Getting Started
+https://lieferanda.vercel.app/
 
-First, run the development server:
+# Über das Projekt
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Die Idee war, eine Webseite zu erstellen, auf der Benutzer verschiedene
+Gerichte und Getränke ansehen und bestellen können.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Die Anwendung orientiert sich an bekannten Online-Bestellplattformen.
+Dabei habe ich mich mit der Darstellung von Produkten, der Auswahl
+von Speisen und der Verwaltung eines Warenkorbs beschäftigt.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+# Funktionen
 
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+- Produktübersicht: Verschiedene Gerichte und Getränke mit Bildern,
+  Namen, Beschreibungen und Preisen anzeigen.
+- Kategorien: Produkte nach verschiedenen Kategorien filtern.
+- Produktdetails: Einzelne Produkte auswählen und weitere Informationen
+  anzeigen.
+- Bestellungen: Produkte mit der gewünschten Menge auswählen.
+- Extras: Zusätzliche Optionen für bestimmte Produkte auswählen.
+- Warenkorb: Ausgewählte Produkte in einer Übersicht anzeigen.
+- Mengenverwaltung: Die Anzahl der Produkte im Warenkorb anpassen.
+- Produkte entfernen: Nicht mehr benötigte Artikel aus dem Warenkorb löschen.
+- Preisübersicht: Den Gesamtbetrag der ausgewählten Produkte anzeigen.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
+# Einblick in das Projekt
 
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Die Anwendung besteht aus mehreren Bereichen.
 
-## Learn More
+Auf der Startseite werden verschiedene Gerichte und Getränke mit Bildern
+und Preisen dargestellt. Über die Kategorien können Benutzer die
+Produktauswahl eingrenzen.
 
-To learn more about Next.js, take a look at the following resources:
+Nach der Auswahl eines Produkts öffnet sich eine Detailansicht.
+Dort können beispielsweise die Menge und zusätzliche Optionen ausgewählt
+werden.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
+Im Warenkorb werden alle ausgewählten Produkte zusammen mit ihrer Menge
+und ihrem Preis angezeigt. Außerdem wird der Gesamtbetrag berechnet und mit Paypal intigriert.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+# Verwendete Technologien
 
-## Deploy on Vercel
+- HTML
+- CSS
+- JavaScript/Next.js
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+# Was ich mit dem Projekt lernen möchte
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
+Mit diesem Projekt möchte ich meine Kenntnisse in der Webentwicklung
+vertiefen und lernen, wie sich eine interaktive Webseite aufbauen lässt.
+
+Besonders interessant finde ich die Umsetzung der Produktauswahl,
+die Verwaltung des Warenkorbs und die Berechnung der Preise.
+
+# Mögliche Erweiterungen
+
+Für zukünftige Versionen könnte ich mir folgende Verbesserungen vorstellen:
+
+- Eine Suchfunktion für Gerichte und Getränke.
+- Eine dauerhafte Speicherung des Warenkorbs.
+- Eine übersichtlichere Darstellung auf Smartphones und Tablets.
+- Eine Bestellübersicht vor dem Abschluss einer Bestellung.
+- Eine Benutzeranmeldung.
+- Eine Verwaltung der Produkte und Preise.
+- Eine Anbindung an ein Backend zur Speicherung von Bestellungen.
+
+Autor 
+Nick N
